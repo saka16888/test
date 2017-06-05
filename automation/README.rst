@@ -1,30 +1,31 @@
 Environments Installation
 =============================
 
-1. Install python in ubuntu
+.. code:: shell
+    1. Install python in ubuntu
 
-sudo apt-get install python3
+    sudo apt-get install python3
 
-2. Clone this directory to <your local directory>
+    2. Clone this directory to <your local directory>
 
-3. export PYTHONPATH="<local directory>" in .bashrc
+    3. export PYTHONPATH="<local directory>" in .bashrc
 
-4. Install virtualenv
+    4. Install virtualenv
 
-pip install virtualenv
+    pip install virtualenv
 
-mkdir ~/.virt
+    mkdir ~/.virt
 
-cd ~/.virt
+    cd ~/.virt
 
-virtualenv -p python .
+    virtualenv -p python .
 
-source ~/.virt/bin/activate
+    source ~/.virt/bin/activate
 
-5. cd <local directory>
+    5. cd <local directory>
 
-pip install -r requirment
+    pip install -r requirment
 
-6. cd <local directory>/icos
+    6. cd <local directory>/icos
 
-pytest <script>
+    pytest <script>
