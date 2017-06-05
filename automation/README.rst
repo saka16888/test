@@ -4,7 +4,7 @@ Environments Installation
 .. code:: shell
 
 	  1. Install python in ubuntu
-	     sudo apt-get install python3
+	     sudo apt-get install python
 	     
 	  2. Clone this directory to your <local directory>
 	  
