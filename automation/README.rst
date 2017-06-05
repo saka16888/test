@@ -17,5 +17,5 @@ source ~/.virt/bin/activate
 5. cd <local directory>
 pip install -r requirment
 
-6. cd cd <local directory>/icos
+6. cd <local directory>/icos
 pytest <script>
