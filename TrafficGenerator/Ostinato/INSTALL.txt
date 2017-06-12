@@ -1,0 +1,31 @@
+Installation Instructions
+=========================
+
+Installing .deb package
+-----------------------
+
+Use gdebi to install the package which will install the dependencies as well -
+
+$ sudo gdebi /path/to/deb/package
+
+Although not recommended, if installation via gdebi doesn't work or is not possible for some reason, you can try -
+
+$ sudo dpkg -i /path/to/deb/package && sudo apt-get -f install
+
+
+Installing .rpm package
+-----------------------
+
+Use yum to install the package which will install the dependencies as well -
+
+$ sudo yum --nogpgcheck localinstall *libprotobuf*.rpm *ostinato*.rpm
+
+
+Run Ostinato
+-----------------------
+
+1. sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/drone
+2. ostinato &
+
+
+Ostinato Website : http://ostinato.org/
