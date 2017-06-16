@@ -11,7 +11,7 @@ Environments Installation
 .. code:: shell
 
     1. Install python in ubuntu
-	   sudo apt-get install python
+       sudo apt-get install python
     2. Clone this directory to your <local directory>
     3. export PYTHONPATH="<local directory>" in .bashrc and your current shell.
     4. Install virtualenv :
