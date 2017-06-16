@@ -2,7 +2,9 @@ Environments Requirement
 =========================
 
 OS: Ubuntu 14.04 32 bits
+
 Python: Python 2.7.x
+
 Ostinato: 0.8
 
 Environments Installation
